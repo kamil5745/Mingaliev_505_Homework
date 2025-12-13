@@ -7,7 +7,12 @@ public class Order {
         this.product = product;
         this.amont = amont;
     }
+
     public String getProduct(){
         return product;
+    }
+    
+    public int getAmount(){
+        return amont;
     }
 }
